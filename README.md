@@ -51,7 +51,10 @@ The script installs the following applications:
 - JetBrains Toolbox
 - Notepad++
 - Windows Terminal
+- PowerShell 7
 - Docker Desktop
+- draw.io
+- Cursor
 
 **System Utilities**
 - TreeSize Free
@@ -68,6 +71,7 @@ The script installs the following applications:
 - Telegram
 - Discord
 - Microsoft Teams
+- Zoom
 - Slack
 - Claude Desktop
 
@@ -88,6 +92,8 @@ The script installs the following applications:
 - Adobe Acrobat Reader
 - Google Drive
 - Raindrop
+- Backup4all
+- Obsidian
 
 #### Features
 
@@ -159,7 +165,9 @@ List of known issues or limitations.
 
 ## License
 
-[Add your chosen license here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Acknowledgments
 
