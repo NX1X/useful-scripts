@@ -50,7 +50,9 @@ $devTools = @(
     @{AppId = "Notepad++.Notepad++"; Name = "Notepad++"},
     @{AppId = "Microsoft.WindowsTerminal"; Name = "Windows Terminal"},
     @{AppId = "Microsoft.PowerShell"; Name = "PowerShell 7"},
-    @{AppId = "Docker.DockerDesktop"; Name = "Docker Desktop"}
+    @{AppId = "Docker.DockerDesktop"; Name = "Docker Desktop"},
+    @{AppId = "JGraph.Draw"; Name = "draw.io"},
+    @{AppId = "dody.cursor"; Name = "Cursor"}
 )
 
 # System Utilities
@@ -58,7 +60,7 @@ $sysUtils = @(
     @{AppId = "JAMSoftware.TreeSize.Free"; Name = "TreeSize Free"},
     @{AppId = "SomePythonThings.WingetUIStore"; Name = "UniGetUI"},
     @{AppId = "File-New-Project.EverythingToolbar"; Name = "Everything"},
-    @{AppId = "GlassWire.GlassWire"; Name = "GlassWire"},
+    @{AppId = "GlassWire.GlassWire"; Name = "GlassWire"}
 )
 
 # Remote Access & Terminal
@@ -68,12 +70,12 @@ $remoteTools = @(
     @{AppId = "XPipe.XPipe"; Name = "XPipe"}
 )
 
-
 # Communication & Collaboration
 $communication = @(
     @{AppId = "Telegram.TelegramDesktop"; Name = "Telegram"},
     @{AppId = "Discord.Discord"; Name = "Discord"},
     @{AppId = "Microsoft.Teams"; Name = "Microsoft Teams"},
+    @{AppId = "Zoom.Zoom"; Name = "Zoom"},
     @{AppId = "Slack.Slack"; Name = "Slack"},
     @{AppId = "Anthropic.Claude"; Name = "Claude Desktop"}
 )
@@ -99,7 +101,9 @@ $others = @(
     @{AppId = "VMware.WorkstationPro"; Name = "VMware Workstation Pro"},
     @{AppId = "Adobe.Acrobat.Reader.64-bit"; Name = "Adobe Acrobat Reader"},
     @{AppId = "Google.Drive"; Name = "Google Drive"},
-    @{AppId = "Raindrop.Raindrop"; Name = "Raindrop"}
+    @{AppId = "Raindrop.Raindrop"; Name = "Raindrop"},
+    @{AppId = "Backup4all.Backup4all"; Name = "Backup4all"},
+    @{AppId = "Obsidian.Obsidian"; Name = "Obsidian"}
 )
 
 # Create arrays of application categories
@@ -108,6 +112,7 @@ $categories = @(
     @{Name = "Development Tools"; Apps = $devTools},
     @{Name = "System Utilities"; Apps = $sysUtils},
     @{Name = "Remote Access & Terminal"; Apps = $remoteTools},
+
     @{Name = "Communication & Collaboration"; Apps = $communication},
     @{Name = "Media & Entertainment"; Apps = $media},
     @{Name = "Microsoft Office & Related"; Apps = $office},
